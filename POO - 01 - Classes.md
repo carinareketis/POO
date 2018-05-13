@@ -6,6 +6,8 @@ Portanto, ao criar uma classe lembre-se de procurar quais são as característic
 
 Dessa forma, uma carcterística "*partida elétrica*", por exemplo, fará menos sentido do que uma característica "*tipo de partida*", afinal uma só se aplica aos carros com partida elétrica e a outra se aplica a qualquer carro.
 
+No JAVA cada classe precisa ser criada em seu próprio arquivo e é obrigatório que o nome do arquivo seja o mesmo nome da classe.
+
 Para criar uma classe em JAVA basta utilizar a palavra class seguida do nome da classe (com primeira letra maiúscula) e chaves:
 
 ```java
