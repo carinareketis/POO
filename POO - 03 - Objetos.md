@@ -32,7 +32,7 @@ Nosso objeto foi criado pelo comando new seguido de um método especial chamado 
 
 O objeto está guardado na variável de tipo *Carro* e nome **c**.
 
-Assim, podemos acessar nosso objeto usando **c** e usando o **.** acessamos os atributos. 
+Assim, podemos acessar nosso objeto usando **c** e usando o **"."** acessamos os atributos. 
 
 Observe que todos os atributos públicos que criamos podem ser acessados por "c.<nome_do_atributo>".
 
@@ -44,7 +44,7 @@ c.marca = "Fiat"; // altera o valor de marca
 System.out.println(c.marca); //agora imprime o valor Fiat na tela
 ```
 
-Observe que você pode criar quantos carros quiser usando uma classe Carro apenas:
+Observe que você pode criar quantos carros quiser usando a classe Carro:
 
 ```java
 public class Programa{
