@@ -76,7 +76,9 @@ Para finalizar, vejamos como representar métodos em UML:
 
 ![UML - Carro - Atributos](https://github.com/profgabrielmilitello/POO/blob/master/imagens/cap4-uml-matematica.png "UML matemática + métodos")
 
-Quando fizemos o UML com atributos eles eram escritos invertido *<nome> : <tipo>*, os métodos também ficam invertidos:
+Quando fizemos o UML com atributos eles eram escritos invertido *<nome> : <tipo>*.
+
+Os métodos também ficam invertidos:
 
 *<encapsulamento> <nome>(<nome_parametro> : <tipo_parametro>) : <retorno>*
 
