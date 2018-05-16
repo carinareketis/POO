@@ -78,7 +78,7 @@ Para finalizar, vejamos como representar métodos em UML:
 
 Quando fizemos o UML com atributos eles eram escritos invertido *\<nome> : \<tipo>*. Os métodos também ficam invertidos:
 
-*\<encapsulamento> \<nome>(<nome_parametro> : <tipo_parametro>) : \<retorno>*
+*\<encapsulamento> \<nome>(\<nome_parametro> : \<tipo_parametro>) : \<retorno>*
 
 Observer que o tipo dos parâmetros e seus nomes também aparecem na posição inversa que fazemos em código.
 
