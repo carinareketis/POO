@@ -72,6 +72,16 @@ public class Pessoa{
 }
 ```
 
+Para finalizar, vejamos como representar métodos em UML:
+
+![UML - Carro - Atributos](https://github.com/profgabrielmilitello/POO/blob/master/imagens/cap4-uml-matematica.png "UML matemática + métodos")
+
+Quando fizemos o UML com atributos eles eram escritos invertido *<nome> : <tipo>*, os métodos também ficam invertidos:
+
+*<encapsulamento> <nome>(<nome_parametro> : <tipo_parametro>) : <retorno>*
+
+Observer que o tipo dos parâmetros e seus nomes também aparecem na posição inversa que fazemos em código.
+
 Lembre-se que podemos ter quantos métodos quisermos em um classe.
 Até mesmo métodos de mesmo nome, isso se chama **sobrecarga de operadores**, no entanto, é obrigatório que eles tenham assinaturas diferentes!
 **Assinatura é o nome do método + seu conjunto de parâmetros.**
