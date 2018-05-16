@@ -72,3 +72,7 @@ Agora ela tem mais erros!
 Apenas o campo1 tem visibilidade para fora do pacote, por ser public e continua funcionando.
 
 Todos os outros modificadores não permitem visibilidade para fora do pacote, então a classe programa não os enxerga.
+
+Utilizamos muito esse tipo de encapsulamento para restringir o quando um módulo poderá acessar de outro.
+
+Já o encapsulamento *private* é mais usado para restringir a forma como outra classe fará acesso aos atributos, o que veremos a seguir.
