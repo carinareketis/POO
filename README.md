@@ -6,7 +6,7 @@
 * [Métodos](https://github.com/profgabrielmilitello/POO/blob/master/POO%20-%2004%20-%20M%C3%A9todos.md)
 * [Sobrecarga de Operadores](https://github.com/profgabrielmilitello/POO/blob/master/POO%20-%2006%20-%20Sobrecarga%20de%20Operadores.md)
 * Construtores
-* [Encapsulamento](https://github.com/profgabrielmilitello/POO/blob/master/POO%20-%2007%20%20-%20Encapsulamento.md)
+* [Encapsulamento](https://github.com/profgabrielmilitello/POO/blob/master/POO%20-%2008%20%20-%20Encapsulamento.md)
 * Métodos de Acesso
 * Herança
 * Sobreescrita de Métodos
