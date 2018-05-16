@@ -4,9 +4,9 @@
 * [Atributos](https://github.com/profgabrielmilitello/POO/blob/master/POO%20-%2002%20-%20Atributos.md)
 * [Objetos](https://github.com/profgabrielmilitello/POO/blob/master/POO%20-%2003%20-%20Objetos.md)
 * [Métodos](https://github.com/profgabrielmilitello/POO/blob/master/POO%20-%2004%20-%20M%C3%A9todos.md)
-* Sobrecarga de Operadores
+* [Sobrecarga de Operadores](https://github.com/profgabrielmilitello/POO/blob/master/POO%20-%2006%20-%20Sobrecarga%20de%20Operadores.md)
 * Construtores
-* Encapsulamento
+* [Encapsulamento](https://github.com/profgabrielmilitello/POO/blob/master/POO%20-%2007%20%20-%20Encapsulamento.md)
 * Métodos de Acesso
 * Herança
 * Sobreescrita de Métodos
