@@ -63,13 +63,13 @@ public class Exemplo{
 }
 ```
 
-Agora a classe Programa apresenta erro. O erro é no campo4, que por estar private não é visível à nenhuma outra classe.
+Agora a classe Programa apresenta erro. O erro é no *campo4*, que por estar private não é visível à nenhuma outra classe.
 
 Crie um novo pacote, e troque a classe programa de pacote. Lembre-se de trocar a primeira linha da classe também.
 
 Agora ela tem mais erros!
 
-Apenas o campo1 tem visibilidade para fora do pacote, por ser public e continua funcionando.
+Apenas o *campo1* tem visibilidade para fora do pacote, por ser public e continua funcionando.
 
 Todos os outros modificadores não permitem visibilidade para fora do pacote, então a classe programa não os enxerga.
 
