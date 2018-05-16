@@ -82,6 +82,6 @@ Quando fizemos o UML com atributos eles eram escritos invertido *\<nome> : \<tip
 
 Observer que o tipo dos parâmetros e seus nomes também aparecem na posição inversa que fazemos em código.
 
-Lembre-se que podemos ter quantos métodos quisermos em um classe.
+Por fim, lembre-se que podemos ter quantos métodos quisermos em um classe.
 Até mesmo métodos de mesmo nome, isso se chama **sobrecarga de operadores**, no entanto, é obrigatório que eles tenham assinaturas diferentes!
 **Assinatura é o nome do método + seu conjunto de parâmetros.**
