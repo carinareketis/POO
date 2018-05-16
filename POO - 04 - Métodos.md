@@ -19,7 +19,7 @@ public int somar(int a, int b){
 } 
 ```
 
-Observer que em métodos com retorno void (ou seja, sem retorno) a palavra return não pode aparecer, enquanto em métodos com qualquer tipo de retorno que não seja void é obrigatório que ela apareça para indicar o resultado da excecução do método.
+Observe que em métodos com retorno void (ou seja, sem retorno) a palavra return não pode aparecer, enquanto em métodos com qualquer tipo de retorno que não seja void é obrigatório que ela apareça para indicar o resultado da excecução do método.
 
 A segunda forma de ver métodos em POO, e que se combina com a forma anterior, é como comportamentos de uma entidade.
 

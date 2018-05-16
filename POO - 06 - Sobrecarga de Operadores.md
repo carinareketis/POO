@@ -51,7 +51,7 @@ Nesse exemplo, o método conectar pode ser invocado sem parâmetros, e usará os
 Pode ser chamado com uma String e altera o valor de host antes de rodar.
 Pode ser chamado com uma String e um int e altera host e port antes de rodar.
 
-Quando uma sobrecarga apenas aumenta a quantidade de parâmetros e executa a lógica geralemente chamamos um método dentro do outro.
+Quando uma sobrecarga apenas aumenta a quantidade de parâmetros e executa a lógica geralmente chamamos um método dentro do outro.
 Assim a manutenção é mais simples por não existirem cópias dos métodos:
 
 ```java

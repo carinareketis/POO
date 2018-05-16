@@ -1,6 +1,6 @@
 ### POO - Atributos
 
-Quando modelamos um cenário do mundo real para uma linguagem computacional fazemos um exercício de abstação: 
+Quando modelamos um cenário do mundo real para uma linguagem computacional fazemos um exercício de abstração: 
 
 Primeiro definimos quais das entidades que observamos são parte essencial do nosso problema. Isso definirá quais classes teremos no programa.
 
