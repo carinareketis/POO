@@ -19,6 +19,7 @@ Os modificadores de encapsulamento são os descritos na tabela abaixo:
 Vamos relembrar, no JAVA toda a classe fica dentro de um **pacote** (package), que são equivalentes a módulos do sistema.
 
 O que a tabela nos conta é que:
+
 *public* - Torna o membro (atributo ou método) visível para qualquer classe no programa.
 *protected* - Torna o membro visível apenas às classes do próprio pacote e classes-filhas (que podem estar em outro pacote).
 *package-private* - Quando não colocamos **nenhum modificador** o membro é visíveis apenas às classes do pacote (padrão).
