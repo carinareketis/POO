@@ -6,7 +6,7 @@ O primeiro, computacional, é que métodos são o equivalente em POO de funçõe
 
 Precisam ter um nome, um conjunto de parâmetros (que pode ser vazio) e um tipo de retorno (que pode ser nenhum).
 
-Para criar um método em JAVA usamos o padrão: <tipo_de_retorno> <nome> (<parametros>) { <corpo>}
+Para criar um método em JAVA usamos o padrão: <tipo_de_retorno> \<nome> (\<parametros>) { \<corpo>}
 
 Veja alguns exemplos:
 ```java
@@ -76,11 +76,9 @@ Para finalizar, vejamos como representar métodos em UML:
 
 ![UML - Carro - Atributos](https://github.com/profgabrielmilitello/POO/blob/master/imagens/cap4-uml-matematica.png "UML matemática + métodos")
 
-Quando fizemos o UML com atributos eles eram escritos invertido *<nome> : <tipo>*.
+Quando fizemos o UML com atributos eles eram escritos invertido *\<nome> : \<tipo>*. Os métodos também ficam invertidos:
 
-Os métodos também ficam invertidos:
-
-*<encapsulamento> <nome>(<nome_parametro> : <tipo_parametro>) : <retorno>*
+*\<encapsulamento> \<nome>(<nome_parametro> : <tipo_parametro>) : \<retorno>*
 
 Observer que o tipo dos parâmetros e seus nomes também aparecem na posição inversa que fazemos em código.
 
