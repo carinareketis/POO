@@ -164,11 +164,11 @@ Já com métodos de acesso rodamos um trecho de código toda vez que o atributo 
 
 Vejamos alguns exemplos com seus casos de uso:
 
-Cenário: Objeto apresenta valores indevidos no final de um processamento
+**Cenário**: Objeto apresenta valores indevidos no final de um processamento
 
-Abordagem: Fazer um log no console toda vez que um atributo é modificado para entender o que está acontecendo.
+**Abordagem**: Fazer um log no console toda vez que um atributo é modificado para entender o que está acontecendo.
 
-Solução: Adicionar um print() nos métodos SET. 
+**Solução**: Adicionar um print() nos métodos SET. 
 
 ```java
 public class Pessoa{
@@ -203,11 +203,11 @@ public class Programa{
 }
 ```
 
-Cenário: Objeto apresenta valores indevidos (nulos) no final de um processamento
+**Cenário**: Objeto apresenta valores indevidos (nulos) no final de um processamento
 
-Abordagem: Fazer um restrição para evitar que valor indevidos sejam atribuídos aos atributos.
+**Abordagem**: Fazer um restrição para evitar que valor indevidos sejam atribuídos aos atributos.
 
-Solução: Adicionar uma validação nos métodos SET. 
+**Solução**: Adicionar uma validação nos métodos SET. 
 
 ```java
 public class Pessoa{
@@ -239,11 +239,11 @@ public class Programa{
     }
 }
 ```
-Cenário: O time de front-end não validou o tamanho dos campos, aconteceram várias tentativas de inserir nomes maiores do que o tamanho do VARCHAR no banco.
+**Cenário**: O time de front-end não validou o tamanho dos campos, aconteceram várias tentativas de inserir nomes maiores do que o tamanho do VARCHAR no banco.
 
-Abordagem: Fazer um restrição para evitar que valor maiores que 127 sejam atribuídos ao nome, enquanto arrumam o front-end.
+**Abordagem**: Fazer um restrição para evitar que valor maiores que 127 sejam atribuídos ao nome, enquanto arrumam o front-end.
 
-Solução: Adicionar uma validação no método SET de nome. 
+**Solução**: Adicionar uma validação no método SET de nome. 
 
 ```java
 public class Pessoa{
@@ -279,11 +279,11 @@ public class Programa{
 }
 ```
 
-Cenário: O DBA pediu para os nomes serem gravados em minúsculas para facilitar buscas textuais. Já o time de front quer todas maiúsculas (sabe deus o porquê)...
+**Cenário**: O DBA pediu para os nomes serem gravados em minúsculas para facilitar buscas textuais. Já o time de front quer todas maiúsculas (sabe deus o porquê)...
 
-Abordagem: Alterar para minúsculas para gravar, alterar para maiúsculas para mostrar.
+**Abordagem**: Alterar para minúsculas para gravar, alterar para maiúsculas para mostrar.
 
-Solução: Adicionar toLowerCase no SET e toUpperCase no GET.
+**Solução**: Adicionar toLowerCase no SET e toUpperCase no GET.
 
 ```java
 public class Pessoa{
