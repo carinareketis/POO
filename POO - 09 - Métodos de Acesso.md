@@ -316,3 +316,7 @@ public class Programa{
 Em suma, os métodos de acesso podem ter implementações muito diferentes, mas sua estrutura é sempre a mesma.
 
 A estrutura é tão previsível que um programa poderia escrever métodos de acesso... Está aí um bom exercício...
+
+Por fim, abaixo vemos um UML representando métodos de acesso e construtores:
+
+![UML - Pessoa - Métodos de Acesso](https://github.com/profgabrielmilitello/POO/blob/master/imagens/cap9-uml-pessoa.png "UML Pessoa + construtores + métodos de acesso")
