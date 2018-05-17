@@ -14,3 +14,8 @@
    * Faça métodos de acesso GET para o ID e GET/SET para o nome.
    * Para gerar o randômico use: `int randomico = new java.util.Random().nextInt(1000);`
 
+
+**DESAFIO**
+* Faça uma classe Atributo com atributos: tipo (String) e nome (String);
+* Escreva um método print() que imprima na tela como seriam os métodos de acesso GET e SET para um atributo daquele tipo com aquele nome.
+* Entregue na aula que vem.
