@@ -10,7 +10,7 @@ O que é mostrado no diagrama abaixo:
 
 ![UML - Herança Múltipla](https://github.com/profgabrielmilitello/POO/blob/master/imagens/cap12-uml-heranca.png "UML Herança Múltipla")
 
-Em outras palavras, podemos fazer apenas 1 herança direta em cada classe, mas podemos herdar indiretamente qualquer número de classes.
+**Em outras palavras, podemos fazer apenas 1 herança direta em cada classe, mas podemos herdar indiretamente qualquer número de classes.**
 
 O motivo para esse tipo de arquitetura é que no JAVA, assim como em outras liguagens, todas as classes tem uma super-classe em comum.
 
@@ -20,7 +20,7 @@ Essa herança é implícita, mesmo sem o comando extends todas as classes herdam
 
 Mas porque a herança de Object faz com que mais de uma herança direta seja ilegal, mas heranças indiretas sejam permitidas?
 
-Primeiro, tenha em mente que apenas as classes que não tem o comando extends em sua declaração herdarão diretamente Object.
+Primeiro, tenha em mente que apenas as classes que não tem o comando *extends* em sua declaração herdarão diretamente Object.
 
 Em outras palavras, se você tem uma classe Pessoa declarada:
 
@@ -34,12 +34,12 @@ Na verdade o JAVA a declarará:
 
 ![UML - Herança Múltipla](https://github.com/profgabrielmilitello/POO/blob/master/imagens/cap12-uml-heranca-object-incorreta.png "UML Herança Múltipla")
 
-No final das contas a classe3 acabará herdando a classe Object duas vezes.
+No final das contas a Classe3 acabará herdando a classe Object duas vezes.
 
-Isso quer dizer que se o compilador não restringisse, acabaríamos com duas cópias de todos os atributos e métodos de Object na Classe3.
+Isso quer dizer que se o compilador não restringisse, acabaríamos com duas cópias de todos os atributos e métodos de Object na Classe3. E classes não podem ter atributos com mesmo nome ou métodos com a mesma assinatura, portanto, teríamos um monte de erros.
 
 Já na forma encadeada isso não acontece:
 
 ![UML - Herança Múltipla](https://github.com/profgabrielmilitello/POO/blob/master/imagens/cap12-uml-heranca-object-correta.png "UML Herança Múltipla")
 
-Observer que Object aparece apenas uma vez no diagrama.
+Observe que Object aparece apenas uma vez no diagrama. Porque apenas as Classe1 não tem *extends* em sua declaração e portanto herda Object implicitamente.
