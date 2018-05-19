@@ -185,3 +185,7 @@ Assim como nosso *Personagem* pode atacar outros personagens e *Monstro* pode at
 
 Abaixo temos um UML simplificado representando a Herança e um UML completo:
 
+![UML - Herança Simplificado](https://github.com/profgabrielmilitello/POO/blob/master/imagens/cap11-uml-heranca-simples.png "UML Herança Simplificado")
+
+![UML - Herança](https://github.com/profgabrielmilitello/POO/blob/master/imagens/cap11-uml-heranca-completo.png?raw=true "UML Herança")
+
