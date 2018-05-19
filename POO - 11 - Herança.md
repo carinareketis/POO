@@ -61,7 +61,8 @@ Vamos listar as diferenças:
 2. *Monstro* tem o método *ataqueEspecial*, o *Personagem* não.
 3. O método *atacar* de *Personagem* tem *Monstro* como parâmetro e de *Monstro* tem *Personagem*.
 
-Vamos reescrever essas classes com herança, por enquanto só vamos aplicar o primeiro aspecto listado, ou seja, agrupar códigos idênticos em uma super-classe e herdá-la. Depois aplicaremos o segundo.
+Vamos reescrever essas classes com herança.
+Por enquanto só vamos aplicar o primeiro aspecto listado, ou seja, agrupar códigos idênticos em uma super-classe e herdá-la. Depois aplicaremos o segundo.
 
 ```java
 public class Ator{
