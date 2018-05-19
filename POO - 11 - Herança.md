@@ -5,6 +5,9 @@ Em POO, falando em termos computacionais, o conceito de heranças tem dois aspec
 1. Reaproveitar o código de uma classe (classe-pai/super-classe) em diversas outras classes (classes-filhas).
 2. Adicionar o tipo da classe-pai aos tipos das classes-filhas.
 
+**Todos os atributos e métodos da classe-pai (super-classe) estarão presentes nas classes filhas automaticamente.
+No entanto, valem os encapsulamentos, o que for private não terá visibilidade mesmo na classe filha.**
+
 Imagine que estamos codificando um jogo e temos as seguintes classes:
 
 ```java
