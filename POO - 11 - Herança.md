@@ -81,6 +81,7 @@ public class Ator{
 
     public void tomarDano(int qtd){ this.vida -= qtd; }
 }
+```
 
 ```java
 public class Personagem extends Ator{
@@ -161,6 +162,7 @@ public class Ator{
 
     public void atacar(Ator a){ a.tomarDano(this.ataque); }
 }
+```
 
 ```java
 public class Personagem extends Ator{
