@@ -8,7 +8,8 @@
 * [Construtores](https://github.com/profgabrielmilitello/POO/blob/master/POO%20-%2007%20-%20Construtor.md)
 * [Encapsulamento](https://github.com/profgabrielmilitello/POO/blob/master/POO%20-%2008%20%20-%20Encapsulamento.md)
 * [Métodos de Acesso](https://github.com/profgabrielmilitello/POO/blob/master/POO%20-%2009%20-%20M%C3%A9todos%20de%20Acesso.md)
-* Herança
+* [Herança](https://github.com/profgabrielmilitello/POO/blob/master/POO%20-%2011%20-%20Heran%C3%A7a.md)
+* [Heranças Múltiplas](https://github.com/profgabrielmilitello/POO/blob/master/POO%20-%2012%20-%20Heran%C3%A7as%20M%C3%BAltiplas.md)
 * Sobreescrita de Métodos
 * Chamadas à superclasse
 * Classes Abstratas
