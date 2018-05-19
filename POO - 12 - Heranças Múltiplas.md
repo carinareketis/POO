@@ -42,4 +42,4 @@ Já na forma encadeada isso não acontece:
 
 ![UML - Herança Múltipla](https://github.com/profgabrielmilitello/POO/blob/master/imagens/cap12-uml-heranca-object-correta.png "UML Herança Múltipla")
 
-Observe que Object aparece apenas uma vez no diagrama. Porque apenas as Classe1 não tem *extends* em sua declaração e portanto herda Object implicitamente.
+Observe que Object aparece apenas uma vez no diagrama. Porque apenas a Classe1 não tem *extends* em sua declaração e portanto herda Object implicitamente.
