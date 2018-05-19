@@ -117,9 +117,11 @@ Assim escrevemos menos código, não temos duplicações, e se desejarmos fazer 
 
 Nossa implementação está reaproveitando o código, nosso primeiro aspecto foi cumprido.
 
-Mas podemos fazer ainda melhor se usarmos o segundo aspecto: Por conta da herança tanto *Mostro* quanto *Jogador* agora compartilham o tipo *Ator*.
+Mas podemos fazer ainda melhor se usarmos o segundo aspecto: 
 
-Sendo assim, podemos tomar o *Jogador* como *Ator*, assim como o *Monstro* como *Ator*, portanto, se observarmos o método atacar de *Jogador*, que tem *Monstro* como parâmetro e o de *Monstro* que tem *Jogador* como parâmetro, podemos generalizá-los para usar *Ator* como parâmetro. Veja o código abaixo:
+Por conta da herança tanto *Mostro* quanto *Jogador* agora compartilham o tipo *Ator*.
+
+Sendo assim, podemos tomar o *Jogador* como *Ator*, assim como o *Monstro* como *Ator*, portanto, se observarmos o método *atacar* de *Jogador*, que tem *Monstro* como parâmetro e o de *Monstro* que tem *Jogador* como parâmetro, podemos generalizá-los para usar *Ator* como parâmetro. Veja o código abaixo:
 
 ```java
 public class Personagem extends Ator{
@@ -139,7 +141,7 @@ public class Monstro extends Ator{
 }
 ```
 
-Podemos fazer isso porque o método *tomarDano*, que é usado no método *ataque*, está na classe Ator.
+Podemos fazer isso porque o método *tomarDano*, que é usado no método *ataque*, está na classe *Ator*.
 
 Veja que agora que a implementação de ataque ficou idêntica nas duas classes, podemos aplicar o primeiro aspecto novamente e colocar esse método na super-classe.
 
@@ -186,10 +188,14 @@ Assim como nosso *Personagem* pode atacar outros personagens e *Monstro* pode at
 
 **Usar a super-classe para representar qualquer tipo filho é um conceito-chave de POO chamado POLIMORFISMO.**
 
-Abaixo temos um UML simplificado representando a Herança e um UML completo:
+Abaixo temos um UML simplificado representando apenas a herança:
 
 ![UML - Herança Simplificado](https://github.com/profgabrielmilitello/POO/blob/master/imagens/cap11-uml-heranca-simples.png "UML Herança Simplificado")
 
+E um UML completo representando as 3 classes e a herança:
+
 ![UML - Herança](https://github.com/profgabrielmilitello/POO/blob/master/imagens/cap11-uml-heranca-completo.png?raw=true "UML Herança")
 
-Observe que não repetimos os atributos e métodos herdados nos diagramas das classes-filhas. O diagrama reflete exatamente o que será codificado!
+Observe que não repetimos os atributos e métodos herdados nos diagramas das classes-filhas. 
+
+O diagrama reflete exatamente o que será codificado!
