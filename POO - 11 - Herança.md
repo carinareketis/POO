@@ -189,3 +189,4 @@ Abaixo temos um UML simplificado representando a Herança e um UML completo:
 
 ![UML - Herança](https://github.com/profgabrielmilitello/POO/blob/master/imagens/cap11-uml-heranca-completo.png?raw=true "UML Herança")
 
+Observe que não repetimos os atributos e métodos herdados nos diagramas das classes-filhas. O diagrama reflete exatamente o que será codificado!
