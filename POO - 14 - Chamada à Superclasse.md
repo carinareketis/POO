@@ -163,3 +163,5 @@ O código roda normalmente.
 Em resumo, **para invocar um construtor da superclasse use super()**.
 
 **Você também pode usar o super() para escolher qual construtor da superclasse rodar se houver mais de um**.
+
+Lembre-se,  **super() só pode ser invocado na primeira linha do construtor da classe-filha**.
