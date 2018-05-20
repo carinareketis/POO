@@ -29,7 +29,7 @@ public class MovedorAcelerado extends Movedor{
 }
 ```
 
-No código acima, temos uma classe *Movedor* que se mover invocando o método *mover()* e uma classe *MovedorAcelerado* que herda *Movedor*.
+No código acima, temos uma classe *Movedor* que se move invocando o método *mover()* e uma classe *MovedorAcelerado* que herda *Movedor*.
 
 *MovedorAcelerado* deve implementar *Movimento Uniformemente Variado* (com aceleração), mas *Movedor*, que tem a implementação do método *mover()* usa Movimento Uniforme (sem aceleração).
 
