@@ -136,7 +136,7 @@ Nesse formulário também há uma cópia da avaliação A.I. para refacção.
     l) `Object o = new C();`
 
 
-    14. Quais das linhas abaixo estão corretas levando em conta o Polimorfismo, e o conceito de classes abstratas, nas classe abaixo?
+14. Quais das linhas abaixo estão corretas levando em conta o Polimorfismo, e o conceito de classes abstratas, nas classe abaixo?
 
     ```java
     public abstract class A { }
@@ -145,16 +145,16 @@ Nesse formulário também há uma cópia da avaliação A.I. para refacção.
     ```
 
     a) `A a = new A();`
-    
+
     b) `A a = new B();`
-    
+
     c) `A a = new C();`
 
-    
+
     d) `B b = new A();`
-    
+
     e) `B b = new B();`
-    
+
     f) `B b = new C();`
 
 
@@ -164,7 +164,7 @@ Nesse formulário também há uma cópia da avaliação A.I. para refacção.
 
     i) `C c = new C();` 
 
-    
+
     j) `Object o = new A();`
 
     k) `Object o = new B();`
