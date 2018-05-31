@@ -1,4 +1,4 @@
-## Instruções
+## INSTRUÇÕES
 
 Abaixo estão os exercícios de recuperação para a prova AI.
 
@@ -16,7 +16,7 @@ Nesse formulário também há uma cópia da avaliação A.I. para refacção.
 
 ### Os UMLs em papel devem ser entregues na aula de **4 de junho**.
 
-## Exercícios
+## EXERCÍCIOS
 
 ### Classes / Atributos / Métodos
 
